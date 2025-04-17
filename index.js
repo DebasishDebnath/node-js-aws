@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
   res.send('Hello from EC2 Node.js!');
 });
 
-app.listen(PORT, '0.0.0.0', () => {
+app.listen(PORT, () => {
   console.log(`Server running at http://0.0.0.0:${PORT}`);
 });
